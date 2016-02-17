@@ -1,4 +1,4 @@
-Chrome extension starting bundle
+Easy Read - Chrome extension
 ================================
 
-A basic starting point for all chrome extensions. Not all the files are needed for every extension, but the core basics are covered.
+Helpful for those with dislexia read various web based articles and publications.  
