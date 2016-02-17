@@ -1,0 +1,22 @@
+{
+  "name": "easy reader",
+  "version": "1.0",
+  "description": "What do I do as an extension",
+  "background": {
+      "page": "reader.html",
+      "persistent": true
+  },
+  "manifest_version": 2,
+  "content_scripts": [ {
+    "js": [ "jquery-2.0.2.min.js", "reader.js" ],
+    "css": ["reader.css"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png",
+    "default_title": "easy reader",
+    "default_popup": "options.html"
+  }
+}

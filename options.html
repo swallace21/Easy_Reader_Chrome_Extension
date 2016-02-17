@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="reader.js"></script>
+    </head>
+    <body>
+<style type="text/css">
+	#mainPopup {
+		padding: 10px;
+		height: 200px;
+		width: 400px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+	}
+	h1 {
+		font-size: 2em;
+	}
+</style>
+
+<div id="mainPopup">
+<h1>Easy Reader Options</h1>
+
+<button onclick="myFunction()">Try it</button>
+
+Favorite color:
+<select id="color">
+    <option value="red">red</option>
+    <option value="green">green</option>
+    <option value="blue">blue</option>
+    <option value="yellow">yellow</option>
+</select>
+
+<label>
+    <input type="checkbox" id="like">
+        I like colors.
+</label>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</div>
+</body>
+</html>
